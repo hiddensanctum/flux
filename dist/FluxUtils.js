@@ -3334,13 +3334,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * new store.
 	 */
 	var FluxStore = /*#__PURE__*/function () {
-	  // private
-
-	  // protected, available to subclasses
-
 	  function FluxStore(dispatcher) {
 	    var _this = this;
+	    // private
 	    _defineProperty(this, "_dispatchToken", void 0);
+	    // protected, available to subclasses
 	    _defineProperty(this, "__changed", void 0);
 	    _defineProperty(this, "__changeEvent", void 0);
 	    _defineProperty(this, "__className", void 0);
